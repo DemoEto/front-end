@@ -4,7 +4,7 @@ export async function searchMovie(search_data) {
 
         console.log('search_data: ' + search_data);
 
-        const response = await fetch('http://localhost:4000/api/movie/search?search_text='+search_data);
+        const response = await fetch('http://api.se-rmutl.net/api/movie/search?search_text='+search_data);
 
         return await response.json(); //***
 
