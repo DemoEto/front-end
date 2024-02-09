@@ -17,7 +17,7 @@ export async function searchMovie(search_data) {
 }
 
 export async function getAllMovies() {
-
+    var bearer_token = '1234567890';
     try{
         //const response = await fetch('/api/users'); 
         //const response = await fetch('/api/movie/all');
